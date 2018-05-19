@@ -53,7 +53,7 @@ public class VideoEncoder implements GetCameraData {
   private int fps = 30;
   private int bitRate = 1200 * 1024; //in kbps
   private int rotation = 90;
-  private int iFrameInterval = 2;
+  private int iFrameInterval = 1;
   private FormatVideoEncoder formatVideoEncoder = FormatVideoEncoder.YUV420Dynamical;
   //for disable video
   private boolean sendBlackImage = false;
